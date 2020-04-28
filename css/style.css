@@ -1,0 +1,43 @@
+﻿*{
+    margin:0px;
+    padding: 0px;
+}
+
+ul .nav-item .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+ul li:hover a {
+    color: #024265;
+}
+.details ul li{
+    list-style: none;
+}
+.details ul li .cases {
+    height: 35px;
+    padding-top: 5px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+    .details ul li .cases:hover {
+        background: #eee4e4;
+    }
+
+.sect01 .container-fluid .row .col-lg-2 .cases{
+    border-radius: 50px;
+    height: 200px;
+    text-align:center;
+    padding-top:55px;
+    margin:5px;
+}
+.sect01 .container-fluid .row .col-lg-2 .cases p{
+    font-size:35px;
+    font-weight: 1000;
+    color:#808080;
+    cursor:pointer;
+    transition: 1s;
+}
+.sect01 .container-fluid .row .col-lg-2 .cases:hover{
+    transform: scale(1.1);
+}
+

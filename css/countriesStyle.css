@@ -1,0 +1,30 @@
+﻿.country_Details {
+    height: 250px;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow:hidden;
+}
+
+    .country_Details .activeBox {
+        position: absolute;
+        top: 30px;
+        left:75px;
+        transition:1s;
+        display: block;
+        
+    }
+    .country_Details .detailsBox {
+        position: absolute;
+        top: 30px;
+        right: -250px;
+        transition: .5s;
+    }
+    .country_Details:hover .detailsBox {
+        right: 115px;
+          
+    }
+    .country_Details:hover .activeBox {
+        left: -280px;
+    }
